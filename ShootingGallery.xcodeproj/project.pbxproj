@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8938A679235DFE3D007DA112 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8938A678235DFE3D007DA112 /* Explosion.sks */; };
+		8938A67B235EC68E007DA112 /* starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8938A67A235EC68E007DA112 /* starfield.sks */; };
 		899C17C62355B045002A7170 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899C17C52355B045002A7170 /* AppDelegate.swift */; };
 		899C17C82355B045002A7170 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 899C17C72355B045002A7170 /* GameScene.sks */; };
 		899C17CC2355B045002A7170 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899C17CB2355B045002A7170 /* GameScene.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8938A678235DFE3D007DA112 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		8938A67A235EC68E007DA112 /* starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = starfield.sks; sourceTree = "<group>"; };
 		899C17C22355B045002A7170 /* ShootingGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShootingGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		899C17C52355B045002A7170 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		899C17C72355B045002A7170 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -61,11 +65,13 @@
 				899C17C52355B045002A7170 /* AppDelegate.swift */,
 				899C17C72355B045002A7170 /* GameScene.sks */,
 				899C17CB2355B045002A7170 /* GameScene.swift */,
+				8938A678235DFE3D007DA112 /* Explosion.sks */,
 				899C17CD2355B045002A7170 /* GameViewController.swift */,
 				899C17CF2355B045002A7170 /* Main.storyboard */,
 				899C17D22355B049002A7170 /* Assets.xcassets */,
 				899C17D42355B049002A7170 /* LaunchScreen.storyboard */,
 				899C17D72355B049002A7170 /* Info.plist */,
+				8938A67A235EC68E007DA112 /* starfield.sks */,
 			);
 			path = ShootingGallery;
 			sourceTree = "<group>";
@@ -130,7 +136,9 @@
 			files = (
 				899C17D12355B045002A7170 /* Main.storyboard in Resources */,
 				899C17C82355B045002A7170 /* GameScene.sks in Resources */,
+				8938A679235DFE3D007DA112 /* Explosion.sks in Resources */,
 				899C17D32355B049002A7170 /* Assets.xcassets in Resources */,
+				8938A67B235EC68E007DA112 /* starfield.sks in Resources */,
 				899C17D62355B049002A7170 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
